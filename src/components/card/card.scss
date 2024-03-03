@@ -1,0 +1,40 @@
+.card {
+    box-shadow: 0 0 4px var(--secondary-color);
+    border-radius: var(--radius-4);
+    overflow: hidden;
+    display: grid;
+    gap: 8px;
+    text-align: center;
+    place-items: center;
+    padding: 8px;
+
+    &__image {
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    &__title {
+        color: var(--secondary-color);
+    }
+
+    &__btns {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        &-link {
+            max-width: 150px;
+            width: 100%;
+        }
+    }
+
+    &__fav {
+        cursor: pointer;
+
+        &.active svg path {
+            fill: var(--primary-color);
+        }
+    }
+}

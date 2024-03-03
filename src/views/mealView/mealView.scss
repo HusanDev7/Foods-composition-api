@@ -1,0 +1,30 @@
+.meal {
+
+    &__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        align-items: flex-start;
+
+        &-image {
+            width: 100%;
+            border-radius: var(--radius-4);
+        }
+
+        &-list {
+            display: grid;
+            gap: 14px;
+        }
+
+        &-txt {
+            grid-column: 2 span;
+            font-size: 18px;
+            line-height: 150%;
+        }
+    }
+}

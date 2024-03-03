@@ -1,0 +1,15 @@
+@import "root.scss";
+@import "common.scss";
+
+// components
+@import "@/components/navbar/navbar.scss";
+@import "@/components/card/card.scss";
+@import "@/components/button/button.scss";
+// components
+
+// views
+@import "@/views/foodsView/foodsView.scss";
+@import "@/views/mealView/mealView.scss";
+@import "@/views/categoryView/categoryView.scss";
+@import "@/views/favouriteView/favouriteView.scss";
+// views

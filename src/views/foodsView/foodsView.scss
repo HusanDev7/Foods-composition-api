@@ -1,0 +1,15 @@
+.foods {
+    
+    &__title {
+        text-align: center;
+        font-size: 42px;
+    }
+
+    &__cards {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(255px, 255px));
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+}
